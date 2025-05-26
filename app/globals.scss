@@ -1,0 +1,23 @@
+@use "~bulma/bulma";
+
+.footer-radius {
+  border-bottom-left-radius: var(--bulma-box-radius);
+  border-bottom-right-radius: var(--bulma-box-radius);
+}
+
+.custom-icon {
+    color: var(--bulma-text-strong)
+}
+
+.profile-photo {
+  border-radius: 50%;
+  clip-path: circle();
+}
+
+.link-no-decoration {
+    text-decoration: none !important;
+}
+
+.small-gap {
+    gap: 5px;
+}
