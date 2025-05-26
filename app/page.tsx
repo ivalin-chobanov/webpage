@@ -37,9 +37,9 @@ export default function Home() {
               <li>Learning task abstractions</li>
             </ul>
             <p>
-              I have previously received a Master's degree in Artificial Intelligence from the University of Edinburgh and a
-              Bachelor's degree in Mathematics with Computer Science from the University of Southampton. I have also worked as
-              a Software Engineer at StoneX Financial Ltd. where I worked in the Metal's front-office team.
+              I have previously received a Master&apos;s degree in Artificial Intelligence from the University of Edinburgh and a
+              Bachelor&apos;s degree in Mathematics with Computer Science from the University of Southampton. I have also worked as
+              a Software Engineer at StoneX Financial Ltd. where I was part of the Metal&apos;s front-office team.
             </p>
             <div className="level mt-5 mb-5 is-mobile is-size-3">
               <div className="level-item">
