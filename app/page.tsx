@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ivalin.com | About",
+  title: "Ivalin Chobanov | About",
   description: "Page about Ivalin Chobanov",
 };
 
