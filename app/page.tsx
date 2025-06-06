@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
         <div className="column is-two-thirds-dektop">
-          <div className="content">
+          <div className="content has-text-justified">
             <h1 className="title is-3">Ivalin Chobanov</h1>
             <p className="subtitle is-5">PhD student @ University of Edinburgh</p>
             <p className="mb-1">
