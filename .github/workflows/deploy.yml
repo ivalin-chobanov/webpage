@@ -45,6 +45,15 @@ jobs:
         run: npm run build
         env:
           PAGES_BASE_PATH: ${{ steps.setup-pages.outputs.base_path }}
+      - name: Commit robots.txt and sitemap to repo
+        run: |
+          git config --local user.email "ivalin.chobanov@gmail.com"
+          git config --local user.name "Ivalin Chobanov"
+          git add public/robots.txt public/sitemap*
+          git commit -m "Update sitemap and robots.txt" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
