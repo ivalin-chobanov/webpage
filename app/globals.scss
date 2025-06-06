@@ -18,6 +18,28 @@
     text-decoration: none !important;
 }
 
-.small-gap {
-    gap: 5px;
+.no-gap {
+    gap: 0 !important;
+}
+
+.is-full-height {
+  min-height: calc(100vh - 3.25rem);
+}
+
+.nowrap {
+  text-wrap: nowrap;
+}
+
+.testt {
+  display: inline;
+  vertical-align: bottom;
+}
+
+.navbar-theme-button {
+  margin-inline: auto;
+  margin-right: 0px;
+}
+
+.navbar-burger-no-margin {
+  margin-inline: 0 !important;
 }
