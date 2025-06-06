@@ -49,7 +49,7 @@ jobs:
         run: |
           git config --local user.email "ivalin.chobanov@gmail.com"
           git config --local user.name "Ivalin Chobanov"
-          git add public/robots.txt public/sitemap*
+          git add public/robots.txt public/sitemap.xml
           git commit -m "Update sitemap and robots.txt" || echo "No changes to commit"
           git push origin main
         env:
