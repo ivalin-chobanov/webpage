@@ -17,7 +17,7 @@ export default function Navbar() {
 
     const [icon, setIcon] = useState(faSun);
     useEffect(() => {
-        theme === 'light' ? setIcon(faMoon) : setIcon(faSun);
+        theme === 'light' ? setIcon(faMoon) : setIcon(faSun)
     }, [theme]);
 
     return (
