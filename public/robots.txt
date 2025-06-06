@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ivalin.com
+
+# Sitemaps
+Sitemap: https://ivalin.com/sitemap.xml
