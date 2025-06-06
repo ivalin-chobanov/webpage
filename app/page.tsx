@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PageLayout from "../components/PageLayout";
+import PageLayout from "@/components/PageLayout";
 import { faXTwitter, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { Metadata } from "next";
