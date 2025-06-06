@@ -10,9 +10,7 @@ export default function NotFound() {
                         <h1 className="title is-size-2">404 | Page Not Found &#128546;</h1>
                         <p className="subtitle is-size-5"><Link href="./" >&larr;Back To Home Page</Link></p>
                     </div>
-                    
                 </div>
-
             </div>
         </PageLayout>
     );
