@@ -50,7 +50,7 @@ export default function Navbar() {
 
                     <a
                         role="button"
-                        className={`navbar-burger ${isActive ? 'is-active' : ""} navbar-burger-no-margin`}
+                        className={`navbar-burger has-text-current ${isActive ? 'is-active' : ""} navbar-burger-no-margin`}
                         aria-label="menu"
                         aria-expanded="false"
                         onClick={e => {
