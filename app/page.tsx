@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <PageLayout>
-      <div className="columns is-flex-direction-row-reverse is-desktop">
+      <div className="columns is-flex-direction-row-reverse is-desktop is-variable is-5">
         <div className={`column is-one-third-desktop is-flex-tablet-only is-block-desktop is-gap-2 ${styles.imagecol}`}>
           <div className="mb-2 has-text-centered-mobile">
             <Image className="profile-photo" src={"/photos/profile_photo.jpeg"} alt="Profile photo" width={256} height={256}></Image>
