@@ -9,7 +9,10 @@ import IconLinkItem from "@/lib/IconLinkItem";
 
 export const metadata: Metadata = {
   title: "About | Ivalin Chobanov",
-  description: "Page about Ivalin Chobanov",
+  applicationName: "Ivalin Chobanov Personal Website",
+  description: "Home page for the personal website of Ivalin Chobanov",
+  keywords: ["Ivalin Chobanov", "Reinforcement Learning", "Artificial Intelligence", "PhD Student", "University of Edinburgh"],
+  creator: "Ivalin Chobanov"
 };
 
 export default function Home() {
@@ -22,8 +25,8 @@ export default function Home() {
           </div>
           <div className="is-flex is-flex-direction-column is-align-items-center ">
             <div className="is-flex is-flex-direction-column is-align-items-start nowrap">
+              <ImageItem icon={faEnvelope}>i [dot] chobanov [at] ed.ac.uk</ImageItem>
               <ImageItem icon={faEnvelope}>chobanov [at] ivalin [dot] com</ImageItem>
-              <ImageItem icon={faEnvelope}>I.L.Chobanov [at] sms.ed.ac.uk</ImageItem>
               <ImageItem icon={faLocationDot}>Edinburgh, United Kingdom</ImageItem>
             </div>
           </div>
@@ -31,27 +34,20 @@ export default function Home() {
         <div className="column is-two-thirds-dektop">
           <div className="content has-text-justified">
             <h1 className="title is-3">Ivalin Chobanov</h1>
-            <p className="subtitle is-5">PhD student @ University of Edinburgh</p>
+            <p className="subtitle is-5">Second Year PhD student @ University of Edinburgh</p>
             <p className="mb-1">
-              I am a first year PhD student at the University of Edinburgh, member of the <a href="https://assistive-autonomy.ed.ac.uk/">Centre for AI in Assistive Autonomy</a> and <a href="https://edinburgh-rl.github.io">MARBLE</a> (formerly known as <a href="https://agents-lab.org/">Autonomous Agents Research Group</a>).
-              I am supervised by <a href="https://assistive-autonomy.ed.ac.uk/project/subramanian-ramamoorthy/">Subramanian Ramamoorthy</a>, <a href="https://zhaobn.github.io/">Bonan Zhao</a> and <a href="https://ignaciocarlucho.github.io/">Ignacio Carlucho</a>.
-              My research focuses on Multi-Agent Reinforcement Learning with the goal of developing methods that enable agents to exhibit complex behavior. In particular, I am interested in:
+              My research is in the area of reinforcement learning, with a focus on designing agents that can learn skills without extrinsic rewards that can generalize to open-ended environments.
+              Particularly, I am interested in designing and utilizing latent world models and geometric constraints in order to ground the skill learning proceess in the dynamics, physics and physical properties of the environment,
+              while respecting the properties of the desired skills. My further interests include instrinsic motivation, representation learning, generatve modelling and multi-agent systems.
             </p>
-            <ul className="mt-0 mb-1">
-              <li>Cooperation under sparse reward setting</li>
-              <li>Learning task and environment abstractions to enhance learning and cooperation</li>
-              <li>Using multi-agent world models</li>
-              <li>Reward-free learning and goal recognition</li>
-              <li>Ad-hoc teamwork and agent modelling</li>
-            </ul>
-            <p>
-              I am also broadly interested in the continual learning setting, designing models with long-term memory, out-of-distribution detection, zero(few)-shot learning.
-              Outside of RL/MARL, I am interested in Generative AI, Robotics and World Models.
+            <p className="mb-1">
+              I am a member of the <a href="https://assistive-autonomy.ed.ac.uk/">Centre for AI in Assistive Autonomy</a> and <a href="https://edinburgh-rl.github.io">MARBLE</a>, 
+              supervised by <a href="https://assistive-autonomy.ed.ac.uk/project/subramanian-ramamoorthy/">Subramanian Ramamoorthy</a> and <a href="https://ignaciocarlucho.github.io/">Ignacio Carlucho</a>.
             </p>
             <p>
               Before starting my PhD, I received a Master&apos;s degree in Artificial Intelligence from the University of Edinburgh and a
-              Bachelor&apos;s degree in Mathematics with Computer Science from the University of Southampton. I have also worked as
-              a Software Developer at StoneX Financial Ltd. where I was part of the Metal&apos;s front-office team.
+              Bachelor&apos;s degree in Mathematics with Computer Science from the University of Southampton. I have previously worked as
+              a Software Developer at StoneX Financial Ltd. as part of the Metal&apos;s front-office team.
             </p>
             <div className="level mt-5 mb-5 is-mobile is-size-3">
               <div className="level-item">

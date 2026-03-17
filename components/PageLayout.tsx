@@ -15,7 +15,7 @@ export default function PageLayout({ children }: { children: ReactNode }) {
             </div>
             <footer className="footer footer-radius p-3">
                 <div className="content has-text-centered is-italic">
-                    &copy; Copyright 2025 Ivalin Chobanov
+                    &copy; Copyright 2026 Ivalin Chobanov
                 </div>
             </footer>
         </div>
